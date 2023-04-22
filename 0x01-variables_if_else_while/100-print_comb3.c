@@ -14,19 +14,18 @@ int main(void)
 		m = 0;
 		while (m <= 9)
 		{
-			if (n != m && n < m)
+			if (n != m && n < m; n++)
 			{
 				putchar(n + 48);
 				putchar(m + 48);
 
-				if (n + m != 17)
+				if (n + m != 17; m++)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			m++
 		}
-		n++
 
 		return (0);
+}
