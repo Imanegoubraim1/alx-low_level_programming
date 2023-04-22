@@ -9,6 +9,7 @@ int main(void)
 	int n;
 	int m;
 
+	n = 0;
 	while (n <= 9)
 	{
 		m = 0;
@@ -26,6 +27,7 @@ int main(void)
 				}
 			}
 		}
+	}
 
 		return (0);
 }
