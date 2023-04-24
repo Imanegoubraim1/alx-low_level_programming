@@ -2,17 +2,11 @@
 /**
  * main - Entry point
  *
- * Return: 1 (success)
+ * Return: 1 (error).
  */
 int main(void)
 {
-	const char *d = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int i;
-
-	for (i = 0; d[i] != '\0'; i++)
-		{
-		putchar(d[i]);
-		}
-	putchar('\n');
+	char quo[]  = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	write(1, quo, 59);
 	return (1);
 }
