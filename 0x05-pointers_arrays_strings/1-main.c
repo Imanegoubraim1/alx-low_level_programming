@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 void swap_int(int *, int *);
